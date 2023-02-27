@@ -1,0 +1,11 @@
+#????
+server.port=9001
+#?????????
+spring.application.name=api-passenger
+spring.application.admin.enabled=false  
+spring.security.user.name=root
+spring.security.user.password=root
+eureka.client.service-url.defaultZone=http://root:root@localhost:7900/eureka/
+eureka.instance.hostname=localhost
+eureka.instance.instance-id=api-passenger
+
